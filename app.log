@@ -1,0 +1,30 @@
+серп. 28, 2025 4:06:53 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 28, 2025 4:06:53 ПП one.utilix.App ensureDirectoriesExist
+INFO: Created directory: Test/Data
+серп. 28, 2025 4:06:53 ПП one.utilix.App ensureDirectoriesExist
+INFO: Created directory: Test/Archive
+серп. 28, 2025 4:06:53 ПП one.utilix.App ensureDirectoriesExist
+INFO: Created directory: Test/Processed
+серп. 28, 2025 4:06:53 ПП one.utilix.App main
+INFO: No CSV files found in the Data folder.
+серп. 28, 2025 4:08:06 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 28, 2025 4:08:06 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 28, 2025 4:08:06 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 28, 2025 4:08:06 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 28, 2025 4:08:06 ПП one.utilix.App main
+SEVERE: Database connection error: No suitable driver found for jdbc:mysql://localhost:3306/mbus?autoReconnect=true&useSSL=false
+серп. 28, 2025 5:21:23 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 28, 2025 5:21:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 28, 2025 5:21:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 28, 2025 5:21:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 28, 2025 5:21:23 ПП one.utilix.App main
+SEVERE: Database connection error: No suitable driver found for jdbc:mysql://localhost:3306/mbus?autoReconnect=true&useSSL=false&serverTimezone=UTC
