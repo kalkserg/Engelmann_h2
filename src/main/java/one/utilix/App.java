@@ -5,6 +5,7 @@ import java.sql.*;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.logging.*;
 
 public class App {
@@ -29,7 +30,28 @@ public class App {
         String dbUser = "mbus";
         String dbPassword = "mbus";
 
-        try (Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
+
+        //Mysql connection
+//        try {
+//            // Це не обов'язково, але надійно:
+//            Class.forName("com.mysql.cj.jdbc.Driver");
+//
+//            Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
+//            System.out.println("✅ З'єднання з БД успішне!");
+//            conn.close();
+//        } catch (ClassNotFoundException e) {
+//            System.out.println("❌ Driver not found!");
+//            e.printStackTrace();
+//        } catch (SQLException e) {
+//            System.out.println("❌ Connection error!");
+//            e.printStackTrace();
+//        }
+
+        //try (Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
             logger.info("Connected to the database.");
 
             for (File file : files) {
@@ -44,7 +66,8 @@ public class App {
                     logger.severe("Error processing file " + file.getName() + ": " + e.getMessage());
                 }
             }
-
+        } catch (ClassNotFoundException e) {
+            logger.severe("Driver not found! " + e.getMessage());
         } catch (SQLException e) {
             logger.severe("Database connection error: " + e.getMessage());
         }
@@ -72,12 +95,15 @@ public class App {
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line;
             while ((line = br.readLine()) != null) {
-                String[] values = line.split(",");
-                if (values.length < 3) {
-                    logger.warning("Skipping malformed line in file " + file.getName() + ": " + line);
+                String[] values = line.split(";");
+                if (!Objects.equals(values[0], "SND_NR")) {
+                    //logger.warning("Skipping malformed line in file " + file.getName() + ": " + line);
                     continue;
                 }
-
+                System.out.println(line);
+                for(int i=0; i< values.length; i++) {
+                    System.out.println(i + "  " + values[i]);
+                }
                 String nzav = values[0];
                 float pokaz;
                 long unixtime;
@@ -89,7 +115,7 @@ public class App {
                     logger.warning("Invalid pokaz value in file " + file.getName() + ": " + values[1]);
                     continue;
                 }
-
+                System.out.println("pokaz: "+ pokaz);
                 // Перевірка формату часу
                 try {
                     unixtime = Long.parseLong(values[2]);
@@ -97,14 +123,14 @@ public class App {
                     logger.warning("Invalid timestamp in file " + file.getName() + ": " + values[2]);
                     continue;
                 }
-
+                System.out.println("unixtime: "+ unixtime);
                 // Перевірка наявності kvk_id
                 Integer kvkId = getKvkId(connection, nzav);
                 if (kvkId == null) {
                     logger.warning("No kvk_id found for nzav: " + nzav);
                     continue;
                 }
-
+                System.out.println("kvkId: "+ kvkId);
                 // Перевірка аномалій (закоментовано для використання на етапі відладки)
                 /*
                 if (isTimestampAnomalous(connection, kvkId, unixtime)) {
