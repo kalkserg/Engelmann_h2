@@ -2052,3 +2052,1123 @@ WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
 SEVERE: Failed to move file: 355412113438236_241217131509.csv
 серп. 29, 2025 4:31:56 ПП one.utilix.App writeToCsv
 INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:39:07 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:39:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:39:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:39:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:39:08 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:39:08 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:39:08 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:39:08 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:46:37 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:46:37 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:46:37 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:46:37 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:46:37 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:46:37 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:37 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:46:37 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:46:55 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:46:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:46:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:46:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:46:56 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:46:56 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:46:56 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:46:56 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:47:58 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:47:58 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:47:58 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:47:58 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:47:59 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:47:59 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:47:59 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:47:59 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:52:16 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:52:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:52:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:52:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:52:17 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:52:17 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:17 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:52:17 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:52:32 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:52:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:52:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:52:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:52:32 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:52:32 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:52:32 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:52:32 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:55:19 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:55:19 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:55:19 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:55:19 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:55:20 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:55:20 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:55:20 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:55:20 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:56:14 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:56:14 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:56:14 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:56:14 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:56:14 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:56:14 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:14 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:56:14 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 4:56:31 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 4:56:31 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 4:56:31 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 4:56:31 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 4:56:31 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 4:56:31 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 4:56:31 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 4:56:31 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 5:10:10 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 5:10:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 5:10:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 5:10:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 5:10:11 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 5:10:11 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App processCsvFile
+WARNING: Invalid pokaz value in file 355412113438236_241217131509.csv: EFE
+серп. 30, 2025 5:10:11 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:10:11 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 5:13:07 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 5:13:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 5:13:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 5:13:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 5:13:07 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 5:13:07 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003520
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003848
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003579
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003818
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003573
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 2100121
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003560
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003575
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003920
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003845
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003809
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003925
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003530
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003922
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003815
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003816
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003568
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 2100110
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003822
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003572
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003521
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003807
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003836
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003814
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003924
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003576
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003571
+серп. 30, 2025 5:13:07 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003817
+серп. 30, 2025 5:13:07 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:13:07 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 5:14:51 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 5:14:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 5:14:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 5:14:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 5:14:51 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 5:14:51 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003520
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003848
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003579
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003818
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003573
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 2100121
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003560
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003575
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003920
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003845
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003809
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003925
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003530
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003922
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003815
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003816
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003568
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 2100110
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003822
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003572
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003521
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003807
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003836
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003814
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003924
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003576
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003571
+серп. 30, 2025 5:14:51 ПП one.utilix.App processCsvFile
+WARNING: Invalid timestamp in file 355412113438236_241217131509.csv: 4003817
+серп. 30, 2025 5:14:51 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:14:51 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 5:17:36 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 5:17:36 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 5:17:36 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 5:17:36 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 5:17:36 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 5:17:36 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872301
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872516
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872110
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872733
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872111
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872778
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+серп. 30, 2025 5:17:36 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:17:36 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+серп. 30, 2025 5:17:36 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:17:36 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+серп. 30, 2025 5:19:32 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+серп. 30, 2025 5:19:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+серп. 30, 2025 5:19:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+серп. 30, 2025 5:19:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+серп. 30, 2025 5:19:33 ПП one.utilix.App main
+INFO: Connected to the database.
+серп. 30, 2025 5:19:33 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872301
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872516
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872110
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872733
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872111
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872778
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+серп. 30, 2025 5:19:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+серп. 30, 2025 5:19:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+серп. 30, 2025 5:19:33 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+серп. 30, 2025 5:19:33 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv

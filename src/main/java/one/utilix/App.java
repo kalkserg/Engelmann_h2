@@ -3,6 +3,8 @@ package one.utilix;
 import java.io.*;
 import java.sql.*;
 import java.sql.Timestamp;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -102,28 +104,36 @@ public class App {
                 }
                 System.out.println(line);
                 for(int i=0; i< values.length; i++) {
-                    System.out.println(i + "  " + values[i]);
+                    //System.out.println(i + "  " + values[i]);
                 }
-                String nzav = values[0];
+                String nzav = values[6];
                 float pokaz;
                 long unixtime;
 
+                System.out.println("nzav: "+ nzav);
+
                 // Перевірка формату показника
                 try {
-                    pokaz = Float.parseFloat(values[1]);
+                    pokaz = Float.parseFloat(values[14].replace(',', '.'));
                 } catch (NumberFormatException e) {
-                    logger.warning("Invalid pokaz value in file " + file.getName() + ": " + values[1]);
+                    logger.warning("Invalid pokaz value in file " + file.getName() + ": " + values[14]);
                     continue;
                 }
                 System.out.println("pokaz: "+ pokaz);
                 // Перевірка формату часу
                 try {
-                    unixtime = Long.parseLong(values[2]);
+                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+                    LocalDate localDate = LocalDate.parse(values[13], formatter);
+                    //System.out.println("localdate: "+ localDate);
+                    //unixtime = Long.parseLong(String.valueOf(localDate.atStartOfDay()));
+                    unixtime = Timestamp.valueOf(localDate.atStartOfDay()).getTime();
+                    //unixtime = values[13];
                 } catch (NumberFormatException e) {
-                    logger.warning("Invalid timestamp in file " + file.getName() + ": " + values[2]);
+                    logger.warning("Invalid timestamp in file " + file.getName() + ": " + values[13]);
                     continue;
                 }
                 System.out.println("unixtime: "+ unixtime);
+
                 // Перевірка наявності kvk_id
                 Integer kvkId = getKvkId(connection, nzav);
                 if (kvkId == null) {
