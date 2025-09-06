@@ -4,6 +4,8 @@ import java.io.*;
 import java.sql.*;
 import java.sql.Timestamp;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
@@ -114,22 +116,26 @@ public class App {
 
                 // Перевірка формату показника
                 try {
-                    pokaz = Float.parseFloat(values[14].replace(',', '.'));
+                    pokaz = Float.parseFloat(values[32].replace(',', '.'));
                 } catch (NumberFormatException e) {
-                    logger.warning("Invalid pokaz value in file " + file.getName() + ": " + values[14]);
+                    logger.warning("Invalid pokaz value in file " + file.getName() + ": " + values[32]);
                     continue;
                 }
                 System.out.println("pokaz: "+ pokaz);
                 // Перевірка формату часу
                 try {
-                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-                    LocalDate localDate = LocalDate.parse(values[13], formatter);
-                    //System.out.println("localdate: "+ localDate);
-                    //unixtime = Long.parseLong(String.valueOf(localDate.atStartOfDay()));
-                    unixtime = Timestamp.valueOf(localDate.atStartOfDay()).getTime();
-                    //unixtime = values[13];
+                    String clean = values[31].split(" ")[0] + " " + values[31].split(" ")[1];
+                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
+                    LocalDateTime ldt = LocalDateTime.parse(clean, formatter);
+                    unixtime = ldt.atZone(ZoneId.of("UTC")).toEpochSecond();
+
+
+
+//                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+//                    LocalDate localDate = LocalDate.parse(values[31], formatter);
+//                    unixtime = Timestamp.valueOf(localDate.atStartOfDay()).getTime();
                 } catch (NumberFormatException e) {
-                    logger.warning("Invalid timestamp in file " + file.getName() + ": " + values[13]);
+                    logger.warning("Invalid timestamp in file " + file.getName() + ": " + values[31]);
                     continue;
                 }
                 System.out.println("unixtime: "+ unixtime);
