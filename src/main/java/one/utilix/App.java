@@ -98,6 +98,7 @@ public class App {
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line;
+
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(";");
                 if (!Objects.equals(values[0], "SND_NR")) {
@@ -109,36 +110,77 @@ public class App {
                     //System.out.println(i + "  " + values[i]);
                 }
                 String nzav = values[6];
+                String string_value = values[32];
+                String string_time = values[31];
+                //String string_status = values[11];
+                String string_error = values[15];
+                String string_type = values[9];
                 float pokaz;
                 long unixtime;
+                int status_flag;
+                String meter_type = "";
 
                 System.out.println("nzav: "+ nzav);
 
                 // Перевірка формату показника
                 try {
-                    pokaz = Float.parseFloat(values[32].replace(',', '.'));
+                    pokaz = Float.parseFloat(string_value.replace(',', '.'));
                 } catch (NumberFormatException e) {
-                    logger.warning("Invalid pokaz value in file " + file.getName() + ": " + values[32]);
+                    logger.warning("Invalid pokaz value in file " + file.getName() + ": " + string_value);
                     continue;
                 }
                 System.out.println("pokaz: "+ pokaz);
                 // Перевірка формату часу
                 try {
-                    String clean = values[31].split(" ")[0] + " " + values[31].split(" ")[1];
+                    String clean = string_time.split(" ")[0] + " " + string_time.split(" ")[1];
                     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
                     LocalDateTime ldt = LocalDateTime.parse(clean, formatter);
                     unixtime = ldt.atZone(ZoneId.of("UTC")).toEpochSecond();
-
-
-
-//                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-//                    LocalDate localDate = LocalDate.parse(values[31], formatter);
-//                    unixtime = Timestamp.valueOf(localDate.atStartOfDay()).getTime();
                 } catch (NumberFormatException e) {
-                    logger.warning("Invalid timestamp in file " + file.getName() + ": " + values[31]);
+                    logger.warning("Invalid timestamp in file " + file.getName() + ": " + string_time);
                     continue;
                 }
                 System.out.println("unixtime: "+ unixtime);
+
+                try {
+                    if ("ColdWater".equalsIgnoreCase(string_type)) {
+                        meter_type = "CWM";
+                    } else
+                    if ("WWater".equalsIgnoreCase(string_type)) {
+                        meter_type = "WWM";
+                    } else
+                    if ("Heat".equalsIgnoreCase(string_type)) {
+                        meter_type = "HM";
+                    }
+                } catch (NumberFormatException e) {
+                    logger.warning("Invalid meter type value in file " + file.getName() + ": " + string_type);
+                    continue;
+                }
+                System.out.println("meter_type: "+ meter_type);
+                System.out.println("string_type: "+ string_type);
+
+                try {
+                    if (string_error.endsWith("b") || string_error.endsWith("B")) {
+                        string_error = string_error.substring(0, string_error.length() - 1);
+                    }
+                    status_flag = Integer.parseInt(string_error, 2);
+                } catch (NumberFormatException e) {
+                    logger.warning("Invalid error value in file " + file.getName() + ": " + string_error);
+                    continue;
+                }
+                System.out.println("status_flag: "+ status_flag);
+                System.out.println("string_error: "+ string_error);
+
+//                try {
+//                    if (string_status.endsWith("h") || string_status.endsWith("H")) {
+//                        string_status = string_status.substring(0, string_status.length() - 1);
+//                    }
+//                    status = Integer.parseInt(string_status,16);
+//                } catch (NumberFormatException e) {
+//                    logger.warning("Invalid status value in file " + file.getName() + ": " + string_status);
+//                    continue;
+//                }
+//                System.out.println("status: "+ status);
 
                 // Перевірка наявності kvk_id
                 Integer kvkId = getKvkId(connection, nzav);
@@ -158,7 +200,7 @@ public class App {
                 }
                 */
 
-                saveToDatabase(connection, kvkId, pokaz, unixtime, nzav);
+                saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meter_type, status_flag);
                 processedData.add(new String[]{nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
             }
         } catch (IOException e) {
@@ -219,7 +261,97 @@ public class App {
     }
     */
 
-    private static void saveToDatabase(Connection connection, int kvkId, float pokaz, long unixtime, String nzav) {
+    private static void saveToDatabase(Connection connection, int kvkId, float pokaz, long unixtime, String nzav, String meter_type, int status) {
+        String query = "INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?)";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+            preparedStatement.setInt(1, kvkId);
+            preparedStatement.setLong(2, unixtime);
+            preparedStatement.setFloat(3, pokaz);
+            preparedStatement.setString(4, nzav);
+            preparedStatement.setString(5, meter_type);
+            preparedStatement.executeUpdate();
+            logger.info("Data saved for kvk_id: " + kvkId);
+        } catch (SQLException e) {
+            logger.severe("Error inserting data into database: " + e.getMessage());
+        }
+        if (status != 0 & status > 4) { //inserting raw errors to DB 0-4 default value
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);"; //Inserting results to mySQL base
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setFloat(3, status);
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setString(5, "0");
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Data saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into database: " + e.getMessage());
+            }
+        }
+        if ((status & (1 << 4)) != 0) {//Magnet
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setFloat(3, 1); // magnet manipulation
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setString(5, "0");
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Data saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into database: " + e.getMessage());
+            }
+        }
+        if ((status & (1 << 3)) != 0) {//Influence
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setFloat(3, 2); // influence
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setString(5, "0");
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Data saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into database: " + e.getMessage());
+            }
+        }
+        if ((status & (1 << 7)) != 0) { // backward flow
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setFloat(3, 3); // backward flow
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setString(5, "0");
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Data saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into database: " + e.getMessage());
+            }
+        }
+        if (((status & (1)) != 0) | ((status & (1 << 2)) != 0)) {//Damage
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setFloat(3, 4); // Damage
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setString(5, "0");
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Data saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into database: " + e.getMessage());
+            }
+        }
+    }
+
+    private static void saveToDatabaseErrors(Connection connection, int kvkId, float pokaz, long unixtime, String nzav) {
         String query = "INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent) VALUES (?, ?, ?, ?, 0)";
         try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
             preparedStatement.setInt(1, kvkId);

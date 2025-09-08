@@ -3442,3 +3442,715 @@ WARNING: No kvk_id found for nzav: 25872737
 SEVERE: Failed to move file: 355412113438236_241217131509.csv
 вер. 05, 2025 4:06:49 ПП one.utilix.App writeToCsv
 INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 08, 2025 11:42:51 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 08, 2025 11:42:51 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 08, 2025 11:42:51 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 08, 2025 11:42:51 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 08, 2025 11:42:52 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 08, 2025 11:42:52 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 00h
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 00h
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 00h
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 00h
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 00h
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 00h
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 0Bh
+вер. 08, 2025 11:42:52 ДП one.utilix.App processCsvFile
+WARNING: Invalid status value in file 355412113438236_241217131509.csv: 00h
+вер. 08, 2025 11:42:52 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 08, 2025 11:42:52 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 08, 2025 11:46:31 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 08, 2025 11:46:31 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 08, 2025 11:46:31 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 08, 2025 11:46:31 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 08, 2025 11:46:31 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 08, 2025 11:46:31 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872301
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872516
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872110
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872733
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872111
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872778
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 08, 2025 11:46:31 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 11:46:31 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 08, 2025 11:46:31 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 08, 2025 11:46:31 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 08, 2025 2:45:09 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 08, 2025 2:45:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 08, 2025 2:45:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 08, 2025 2:45:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 08, 2025 2:45:10 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 08, 2025 2:45:10 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872301
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872516
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872110
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872733
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872111
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872778
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 08, 2025 2:45:10 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:45:10 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 08, 2025 2:45:10 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 08, 2025 2:45:10 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 08, 2025 2:54:51 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 08, 2025 2:54:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 08, 2025 2:54:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 08, 2025 2:54:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 08, 2025 2:54:52 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 08, 2025 2:54:52 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872301
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872516
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872110
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872733
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872111
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872778
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 08, 2025 2:54:52 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:54:52 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 08, 2025 2:54:52 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 08, 2025 2:54:52 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 08, 2025 2:55:51 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 08, 2025 2:55:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 08, 2025 2:55:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 08, 2025 2:55:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 08, 2025 2:55:51 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 08, 2025 2:55:51 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872301
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872516
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872110
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872733
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872111
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872778
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 08, 2025 2:55:51 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:55:51 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 08, 2025 2:55:51 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 08, 2025 2:55:51 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 08, 2025 2:57:34 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 08, 2025 2:57:34 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 08, 2025 2:57:34 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 08, 2025 2:57:34 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 08, 2025 2:57:34 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 08, 2025 2:57:34 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872301
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872516
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872110
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872733
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872111
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872778
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 08, 2025 2:57:34 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 08, 2025 2:57:34 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 08, 2025 2:57:34 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 08, 2025 2:57:34 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
