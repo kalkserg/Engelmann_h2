@@ -4154,3 +4154,1043 @@ WARNING: No kvk_id found for nzav: 25872737
 SEVERE: Failed to move file: 355412113438236_241217131509.csv
 вер. 08, 2025 2:57:34 ПП one.utilix.App writeToCsv
 INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 09, 2025 9:42:09 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 09, 2025 9:42:09 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 09, 2025 9:42:09 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 09, 2025 9:42:09 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 09, 2025 9:42:10 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 09, 2025 9:42:10 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872301
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872516
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872110
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872733
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872111
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872778
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 09, 2025 9:42:10 ДП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table 'mbus.network' doesn't exist
+вер. 09, 2025 9:42:10 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 09, 2025 9:42:10 ДП one.utilix.App moveFile
+INFO: File moved to: D:\Projects\Engelmann\Test\Archive\355412113438236_241217131509.csv
+вер. 09, 2025 9:42:10 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 11, 2025 6:10:27 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 11, 2025 6:10:27 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 11, 2025 6:10:27 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 11, 2025 6:10:27 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 11, 2025 6:10:28 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 11, 2025 6:10:28 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734421860' for column 'unixtime' at row 1
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734423180' for column 'unixtime' at row 1
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734422700' for column 'unixtime' at row 1
+вер. 11, 2025 6:10:28 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 11, 2025 6:10:28 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 11, 2025 6:10:28 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 11, 2025 6:10:28 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 11, 2025 6:10:28 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 11, 2025 6:10:28 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 11, 2025 6:10:28 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 11, 2025 6:10:28 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 11, 2025 6:10:28 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 11, 2025 6:10:29 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 11, 2025 6:10:29 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 11, 2025 6:10:29 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 10:40:36 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 10:40:36 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 10:40:36 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 10:40:36 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 10:40:37 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 10:40:37 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734421860' for column 'unixtime' at row 1
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734423180' for column 'unixtime' at row 1
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734422700' for column 'unixtime' at row 1
+вер. 12, 2025 10:40:37 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 10:40:37 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 10:40:37 ДП one.utilix.App moveFile
+INFO: File moved to: D:\Projects\Engelmann\Test\Archive\355412113438236_241217131509.csv
+вер. 12, 2025 10:40:37 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 10:44:04 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 10:44:04 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 10:44:04 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 10:44:04 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 10:44:04 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 10:44:04 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 10:44:04 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:44:04 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734421860' for column 'unixtime' at row 1
+вер. 12, 2025 10:44:04 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:44:04 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:44:04 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 12, 2025 10:44:04 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 12, 2025 10:44:05 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:44:05 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734423180' for column 'unixtime' at row 1
+вер. 12, 2025 10:44:05 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:44:05 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734422700' for column 'unixtime' at row 1
+вер. 12, 2025 10:44:05 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 10:44:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 10:44:05 ДП one.utilix.App moveFile
+INFO: File moved to: D:\Projects\Engelmann\Test\Archive\355412113438236_241217131509.csv
+вер. 12, 2025 10:44:05 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 10:46:40 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 10:46:40 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 10:46:40 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 10:46:40 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 10:46:40 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 10:46:40 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734421860' for column 'unixtime' at row 1
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734423180' for column 'unixtime' at row 1
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734422700' for column 'unixtime' at row 1
+вер. 12, 2025 10:46:40 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 10:46:40 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 10:46:41 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 10:46:41 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 12, 2025 10:46:41 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 10:47:13 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 10:47:13 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 10:47:13 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 10:47:13 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 10:47:13 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 10:47:13 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734421860' for column 'unixtime' at row 1
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734420900' for column 'unixtime' at row 1
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734423180' for column 'unixtime' at row 1
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: Data truncation: Incorrect datetime value: '1734422700' for column 'unixtime' at row 1
+вер. 12, 2025 10:47:13 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 10:47:13 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 10:47:13 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 12, 2025 10:47:13 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 11:08:48 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 11:08:48 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 11:08:48 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 11:08:48 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 11:08:48 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 11:08:48 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:08:48 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 6
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 11:08:48 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 11:08:48 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:08:48 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 11:16:01 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 11:16:01 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 11:16:01 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 11:16:01 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 11:16:01 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 11:16:01 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 5
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 5
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 5
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 5
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 5
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:16:01 ДП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: No value specified for parameter 5
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 11:16:01 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 11:16:01 ДП one.utilix.App moveFile
+INFO: File moved to: D:\Projects\Engelmann\Test\Archive\355412113438236_241217131509.csv
+вер. 12, 2025 11:16:01 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 11:23:08 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 11:23:08 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 11:23:08 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 11:23:08 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 11:23:08 ДП one.utilix.App main
+INFO: No CSV files found in the Data folder.
+вер. 12, 2025 11:25:05 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 11:25:05 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 11:25:05 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 11:25:05 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 11:25:05 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 11:25:05 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179719
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:25:05 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179727
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 11:25:05 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 11:25:05 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:25:05 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 11:52:42 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 11:52:42 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 11:52:42 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 11:52:42 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 11:52:43 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 11:52:43 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179719
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:52:43 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179727
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 11:52:43 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 11:52:43 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:52:43 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 11:57:45 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 11:57:45 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 11:57:45 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 11:57:45 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 11:57:45 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 11:57:45 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179719
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:57:45 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179727
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 11:57:45 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 11:57:45 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:57:45 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 12, 2025 11:59:55 ДП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 12, 2025 11:59:55 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 12, 2025 11:59:55 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 12, 2025 11:59:55 ДП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 12, 2025 11:59:55 ДП one.utilix.App main
+INFO: Connected to the database.
+вер. 12, 2025 11:59:55 ДП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179719
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 12, 2025 11:59:55 ДП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179727
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 12, 2025 11:59:55 ДП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 12, 2025 11:59:55 ДП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 12, 2025 11:59:55 ДП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv

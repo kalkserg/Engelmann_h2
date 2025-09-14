@@ -105,7 +105,7 @@ public class App {
                     //logger.warning("Skipping malformed line in file " + file.getName() + ": " + line);
                     continue;
                 }
-                System.out.println(line);
+//                System.out.println(line);
                 for(int i=0; i< values.length; i++) {
                     //System.out.println(i + "  " + values[i]);
                 }
@@ -116,32 +116,36 @@ public class App {
                 String string_error = values[15];
                 String string_type = values[9];
                 float pokaz;
-                long unixtime;
+                //long unixtime;
+                Timestamp unixtime;
                 int status_flag;
                 String meter_type = "";
 
-                System.out.println("nzav: "+ nzav);
+//                System.out.println("nzav: "+ nzav);
 
-                // Перевірка формату показника
+                // get value
                 try {
                     pokaz = Float.parseFloat(string_value.replace(',', '.'));
                 } catch (NumberFormatException e) {
                     logger.warning("Invalid pokaz value in file " + file.getName() + ": " + string_value);
                     continue;
                 }
-                System.out.println("pokaz: "+ pokaz);
-                // Перевірка формату часу
+//                System.out.println("pokaz: "+ pokaz);
+
+                // get time
                 try {
                     String clean = string_time.split(" ")[0] + " " + string_time.split(" ")[1];
                     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
                     LocalDateTime ldt = LocalDateTime.parse(clean, formatter);
-                    unixtime = ldt.atZone(ZoneId.of("UTC")).toEpochSecond();
+                    //unixtime = ldt.atZone(ZoneId.of("UTC")).toEpochSecond();
+                    unixtime = Timestamp.valueOf(ldt);
                 } catch (NumberFormatException e) {
                     logger.warning("Invalid timestamp in file " + file.getName() + ": " + string_time);
                     continue;
                 }
-                System.out.println("unixtime: "+ unixtime);
+//                System.out.println("unixtime: "+ unixtime);
 
+                // get meter type
                 try {
                     if ("ColdWater".equalsIgnoreCase(string_type)) {
                         meter_type = "CWM";
@@ -156,9 +160,10 @@ public class App {
                     logger.warning("Invalid meter type value in file " + file.getName() + ": " + string_type);
                     continue;
                 }
-                System.out.println("meter_type: "+ meter_type);
-                System.out.println("string_type: "+ string_type);
+//                System.out.println("meter_type: "+ meter_type);
+//                System.out.println("string_type: "+ string_type);
 
+                // get errors
                 try {
                     if (string_error.endsWith("b") || string_error.endsWith("B")) {
                         string_error = string_error.substring(0, string_error.length() - 1);
@@ -168,8 +173,8 @@ public class App {
                     logger.warning("Invalid error value in file " + file.getName() + ": " + string_error);
                     continue;
                 }
-                System.out.println("status_flag: "+ status_flag);
-                System.out.println("string_error: "+ string_error);
+//                System.out.println("status_flag: "+ status_flag);
+//                System.out.println("string_error: "+ string_error);
 
 //                try {
 //                    if (string_status.endsWith("h") || string_status.endsWith("H")) {
@@ -182,13 +187,13 @@ public class App {
 //                }
 //                System.out.println("status: "+ status);
 
-                // Перевірка наявності kvk_id
+                // get kvk_id
                 Integer kvkId = getKvkId(connection, nzav);
                 if (kvkId == null) {
                     logger.warning("No kvk_id found for nzav: " + nzav);
                     continue;
                 }
-                System.out.println("kvkId: "+ kvkId);
+//                System.out.println("kvkId: "+ kvkId);
                 // Перевірка аномалій (закоментовано для використання на етапі відладки)
                 /*
                 if (isTimestampAnomalous(connection, kvkId, unixtime)) {
@@ -200,8 +205,10 @@ public class App {
                 }
                 */
 
+                //saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meter_type, status_flag);
+                //processedData.add(new String[]{nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
                 saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meter_type, status_flag);
-                processedData.add(new String[]{nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
+                processedData.add(new String[]{String.valueOf(kvkId), nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
             }
         } catch (IOException e) {
             logger.severe("Error reading file " + file.getName() + ": " + e.getMessage());
@@ -261,27 +268,29 @@ public class App {
     }
     */
 
-    private static void saveToDatabase(Connection connection, int kvkId, float pokaz, long unixtime, String nzav, String meter_type, int status) {
+    private static void saveToDatabase(Connection connection, int kvkId, float pokaz, Timestamp unixtime, String nzav, String meter_type, int status) {
         String query = "INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?)";
         try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
             preparedStatement.setInt(1, kvkId);
-            preparedStatement.setLong(2, unixtime);
+            preparedStatement.setTimestamp(2, unixtime);
             preparedStatement.setFloat(3, pokaz);
             preparedStatement.setString(4, nzav);
-            preparedStatement.setString(5, meter_type);
+            preparedStatement.setInt(5, 0);
+            preparedStatement.setString(6, meter_type);
             preparedStatement.executeUpdate();
             logger.info("Data saved for kvk_id: " + kvkId);
         } catch (SQLException e) {
             logger.severe("Error inserting data into database: " + e.getMessage());
         }
+        // save errors
         if (status != 0 & status > 4) { //inserting raw errors to DB 0-4 default value
-            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);"; //Inserting results to mySQL base
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
                 preparedStatement.setInt(1, kvkId);
-                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setTimestamp(2, unixtime);
                 preparedStatement.setFloat(3, status);
                 preparedStatement.setString(4, nzav);
-                preparedStatement.setString(5, "0");
+                preparedStatement.setInt(5, 0);
                 preparedStatement.setString(6, meter_type);
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
@@ -293,10 +302,10 @@ public class App {
             query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
                 preparedStatement.setInt(1, kvkId);
-                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setTimestamp(2, unixtime);
                 preparedStatement.setFloat(3, 1); // magnet manipulation
                 preparedStatement.setString(4, nzav);
-                preparedStatement.setString(5, "0");
+                preparedStatement.setInt(5, 0);
                 preparedStatement.setString(6, meter_type);
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
@@ -308,10 +317,10 @@ public class App {
             query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
                 preparedStatement.setInt(1, kvkId);
-                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setTimestamp(2, unixtime);
                 preparedStatement.setFloat(3, 2); // influence
                 preparedStatement.setString(4, nzav);
-                preparedStatement.setString(5, "0");
+                preparedStatement.setInt(5, 0);
                 preparedStatement.setString(6, meter_type);
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
@@ -323,10 +332,10 @@ public class App {
             query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
                 preparedStatement.setInt(1, kvkId);
-                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setTimestamp(2, unixtime);
                 preparedStatement.setFloat(3, 3); // backward flow
                 preparedStatement.setString(4, nzav);
-                preparedStatement.setString(5, "0");
+                preparedStatement.setInt(5, 0);
                 preparedStatement.setString(6, meter_type);
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
@@ -338,10 +347,10 @@ public class App {
             query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
                 preparedStatement.setInt(1, kvkId);
-                preparedStatement.setLong(2, unixtime);
+                preparedStatement.setTimestamp(2, unixtime);
                 preparedStatement.setFloat(3, 4); // Damage
                 preparedStatement.setString(4, nzav);
-                preparedStatement.setString(5, "0");
+                preparedStatement.setInt(5, 0);
                 preparedStatement.setString(6, meter_type);
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
@@ -351,21 +360,9 @@ public class App {
         }
     }
 
-    private static void saveToDatabaseErrors(Connection connection, int kvkId, float pokaz, long unixtime, String nzav) {
-        String query = "INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent) VALUES (?, ?, ?, ?, 0)";
-        try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
-            preparedStatement.setInt(1, kvkId);
-            preparedStatement.setLong(2, unixtime);
-            preparedStatement.setFloat(3, pokaz);
-            preparedStatement.setString(4, nzav);
-            preparedStatement.executeUpdate();
-            logger.info("Data saved for kvk_id: " + kvkId);
-        } catch (SQLException e) {
-            logger.severe("Error inserting data into database: " + e.getMessage());
-        }
-    }
 
     private static void moveFile(File source, File destination) {
+//        System.out.println("Moving from " + source.getAbsolutePath() + " to " + destination.getAbsolutePath());
         if (source.renameTo(destination)) {
             logger.info("File moved to: " + destination.getAbsolutePath());
         } else {
