@@ -5194,3 +5194,2379 @@ WARNING: No kvk_id found for nzav: 25872737
 SEVERE: Failed to move file: 355412113438236_241217131509.csv
 вер. 12, 2025 11:59:55 ДП one.utilix.App writeToCsv
 INFO: Processed data saved to: D:\Projects\Engelmann\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 5:38:45 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:38:45 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:38:45 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:38:45 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:38:45 ПП one.utilix.App main
+SEVERE: Driver not found! org.h2.Driver
+вер. 18, 2025 5:42:23 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:42:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:42:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:42:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:42:23 ПП one.utilix.App main
+SEVERE: Driver not found! org.h2.Driver
+вер. 18, 2025 5:47:01 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:47:01 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:47:01 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:47:01 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:47:01 ПП one.utilix.App main
+SEVERE: Driver not found! org.h2.Driver
+вер. 18, 2025 5:49:37 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:49:37 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:49:37 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:49:37 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:49:37 ПП one.utilix.App main
+SEVERE: Driver not found! org.h2.Driver
+вер. 18, 2025 5:50:42 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:50:42 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:50:42 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:50:42 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:50:42 ПП one.utilix.App main
+SEVERE: Driver not found! org.h2.Driver
+вер. 18, 2025 5:51:52 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:51:52 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:51:52 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:51:52 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:51:52 ПП one.utilix.App main
+SEVERE: Driver not found! org.h2.Driver
+вер. 18, 2025 5:52:56 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:52:56 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:52:56 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:52:56 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:52:56 ПП one.utilix.App main
+SEVERE: Driver not found! org.h2.Driver
+вер. 18, 2025 5:53:13 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:53:13 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:53:13 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:53:13 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:53:13 ПП one.utilix.App main
+SEVERE: Driver not found! org.h2.Driver
+вер. 18, 2025 5:56:16 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 5:56:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 5:56:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 5:56:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 5:56:17 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 5:56:17 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872578
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872588
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872565
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872570
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872577
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872571
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 18, 2025 5:56:17 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 5:56:17 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 18, 2025 5:56:17 ПП one.utilix.App moveFile
+INFO: File moved to: D:\Projects\Engelmann_h2\Test\Archive\355412113438236_241217131509.csv
+вер. 18, 2025 5:56:17 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 9:40:23 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 9:40:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 9:40:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 9:40:23 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 9:40:24 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 9:40:24 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872578
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872588
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872565
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872570
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872577
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872571
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 18, 2025 9:40:24 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM network WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:40:24 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 18, 2025 9:40:24 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:40:24 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 9:44:10 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 9:44:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 9:44:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 9:44:10 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 9:44:10 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 9:44:10 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872578
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872588
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872565
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872570
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872577
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872571
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 18, 2025 9:44:11 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT KVK_ID FROM NETWORK WHERE METER_NUMBER = ? [42102-200]
+вер. 18, 2025 9:44:11 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 18, 2025 9:44:11 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:44:11 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 9:45:55 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 9:45:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 9:45:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 9:45:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 9:45:56 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 9:45:56 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872578
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872588
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872565
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872570
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872577
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872571
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 18, 2025 9:45:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:45:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 18, 2025 9:45:56 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:45:56 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 9:48:33 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 9:48:33 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 9:48:33 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 9:48:33 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 9:48:33 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 9:48:33 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872578
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872588
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872565
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872570
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872577
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872571
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 18, 2025 9:48:33 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:33 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 18, 2025 9:48:33 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:48:33 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 9:48:55 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 9:48:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 9:48:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 9:48:55 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 9:48:56 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 9:48:56 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872578
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872588
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872565
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872570
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872577
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872571
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 18, 2025 9:48:56 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:48:56 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 18, 2025 9:48:56 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:48:56 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 9:53:07 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 9:53:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 9:53:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 9:53:07 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 9:53:07 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 9:53:07 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872578
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872588
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872565
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872570
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872577
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872571
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 18, 2025 9:53:07 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:53:07 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 18, 2025 9:53:07 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:53:07 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 9:56:31 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 9:56:31 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 9:56:31 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 9:56:31 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 9:56:31 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 9:56:31 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872578
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872588
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872565
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872570
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872577
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872571
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872109
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872101
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872379
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872522
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872725
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872377
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872308
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872392
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872739
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872736
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872098
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872789
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872534
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872119
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872292
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872726
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872514
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872735
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872394
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872124
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872112
+вер. 18, 2025 9:56:31 ПП one.utilix.App getKvkId
+SEVERE: Error querying kvk_id: Table "NETWORK" not found; SQL statement:
+SELECT kvk_id FROM NETWORK WHERE meter_number = ? [42102-200]
+вер. 18, 2025 9:56:31 ПП one.utilix.App processCsvFile
+WARNING: No kvk_id found for nzav: 25872737
+вер. 18, 2025 9:56:31 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:56:31 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 9:58:50 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 9:58:50 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 9:58:50 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 9:58:50 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 9:58:50 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 9:58:50 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?); [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App saveToDatabase
+SEVERE: Error inserting data into database: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?) [23502-200]
+вер. 18, 2025 9:58:50 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 9:58:50 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 10:20:28 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:20:28 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:20:28 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:20:28 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:20:28 ПП one.utilix.App main
+SEVERE: Database connection error: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+вер. 18, 2025 10:20:57 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:20:57 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:20:57 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:20:57 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:20:57 ПП one.utilix.App main
+SEVERE: Database connection error: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+вер. 18, 2025 10:21:22 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:21:22 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:21:22 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:21:22 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:21:23 ПП one.utilix.App main
+SEVERE: Database connection error: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+вер. 18, 2025 10:22:51 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:22:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:22:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:22:51 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:22:51 ПП one.utilix.App main
+SEVERE: Database connection error: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+вер. 18, 2025 10:23:16 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:23:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:23:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:23:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:23:16 ПП one.utilix.App main
+SEVERE: Database connection error: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+вер. 18, 2025 10:24:00 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:24:01 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:24:01 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:24:01 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:24:01 ПП one.utilix.App main
+SEVERE: Database connection error: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+вер. 18, 2025 10:24:32 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:24:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:24:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:24:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:24:32 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 10:24:32 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179719
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179727
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216372
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216364
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216152
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216362
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 18, 2025 10:24:32 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216358
+вер. 18, 2025 10:24:32 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 10:24:32 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 18, 2025 10:43:00 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:43:00 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:43:00 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:43:00 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:43:00 ПП one.utilix.App main
+SEVERE: Database connection error: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+вер. 18, 2025 10:43:14 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 18, 2025 10:43:14 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 18, 2025 10:43:14 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 18, 2025 10:43:14 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 18, 2025 10:43:14 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 18, 2025 10:43:14 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179719
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179727
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216372
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216364
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216152
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216362
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 18, 2025 10:43:14 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216358
+вер. 18, 2025 10:43:14 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 18, 2025 10:43:14 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 21, 2025 12:23:32 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 21, 2025 12:23:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 21, 2025 12:23:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 21, 2025 12:23:32 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 21, 2025 12:23:33 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 21, 2025 12:23:33 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179717
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179719
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179721
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179723
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179725
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 179727
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216372
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216364
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216152
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216362
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:23:33 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216358
+вер. 21, 2025 12:23:33 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:23:33 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 21, 2025 12:24:09 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 21, 2025 12:24:09 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 21, 2025 12:24:09 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 21, 2025 12:24:09 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 21, 2025 12:24:09 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 21, 2025 12:24:09 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216352
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216352
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216360
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216374
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216374
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216369
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216369
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216150
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216372
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216364
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216152
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216362
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:24:10 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216358
+вер. 21, 2025 12:24:10 ПП one.utilix.App moveFile
+INFO: File moved to: D:\Projects\Engelmann_h2\Test\Archive\355412113438236_241217131509.csv
+вер. 21, 2025 12:24:10 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 21, 2025 12:33:57 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 21, 2025 12:33:57 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 21, 2025 12:33:57 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 21, 2025 12:33:57 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 21, 2025 12:33:57 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 21, 2025 12:33:57 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216352
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216352
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216360
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216374
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216374
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216369
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216369
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216150
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216372
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216364
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216152
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216362
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:33:57 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216358
+вер. 21, 2025 12:33:57 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:33:57 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 21, 2025 12:34:16 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 21, 2025 12:34:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 21, 2025 12:34:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 21, 2025 12:34:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 21, 2025 12:34:17 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 21, 2025 12:34:17 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216352
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216352
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216360
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216374
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216374
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216369
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216369
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216150
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216372
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216364
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216152
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216362
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:34:17 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216358
+вер. 21, 2025 12:34:17 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:34:17 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv
+вер. 21, 2025 12:35:16 ПП one.utilix.App setupLogger
+INFO: Logger initialized.
+вер. 21, 2025 12:35:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Data
+вер. 21, 2025 12:35:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Archive
+вер. 21, 2025 12:35:16 ПП one.utilix.App ensureDirectoriesExist
+INFO: Directory exists: Test/Processed
+вер. 21, 2025 12:35:16 ПП one.utilix.App main
+INFO: Connected to the database.
+вер. 21, 2025 12:35:16 ПП one.utilix.App main
+INFO: Processing file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216352
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216352
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216360
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216371
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216374
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216374
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216369
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216369
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216150
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216375
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216355
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216367
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216372
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216356
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216361
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216151
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216353
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216370
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216364
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216365
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216152
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216366
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216359
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216346
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216362
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216354
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216368
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216373
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216357
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216363
+вер. 21, 2025 12:35:16 ПП one.utilix.App saveToDatabase
+INFO: Data saved for kvk_id: 216358
+вер. 21, 2025 12:35:16 ПП one.utilix.App moveFile
+SEVERE: Failed to move file: 355412113438236_241217131509.csv
+вер. 21, 2025 12:35:16 ПП one.utilix.App writeToCsv
+INFO: Processed data saved to: D:\Projects\Engelmann_h2\Test\Processed\355412113438236_241217131509.csv

@@ -30,30 +30,14 @@ public class App {
             return;
         }
 
-        String dbUrl = "jdbc:mysql://localhost:3306/mbus?autoReconnect=true&useSSL=false&serverTimezone=UTC";
-        String dbUser = "mbus";
-        String dbPassword = "mbus";
+        String dbUrl = "jdbc:h2:file:/D:/Projects/Engelmann_source/mbus"; // файлова база
+        String dbUser = "sa";
+        String dbPassword = "";
 
-
-        //Mysql connection
-//        try {
-//            // Це не обов'язково, але надійно:
-//            Class.forName("com.mysql.cj.jdbc.Driver");
-//
-//            Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
-//            System.out.println("✅ З'єднання з БД успішне!");
-//            conn.close();
-//        } catch (ClassNotFoundException e) {
-//            System.out.println("❌ Driver not found!");
-//            e.printStackTrace();
-//        } catch (SQLException e) {
-//            System.out.println("❌ Connection error!");
-//            e.printStackTrace();
-//        }
 
         //try (Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("org.h2.Driver");
 
             Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
             logger.info("Connected to the database.");
@@ -106,9 +90,9 @@ public class App {
                     continue;
                 }
 //                System.out.println(line);
-                for(int i=0; i< values.length; i++) {
+//                for(int i=0; i< values.length; i++) {
                     //System.out.println(i + "  " + values[i]);
-                }
+//                }
                 String nzav = values[6];
                 String string_value = values[32];
                 String string_time = values[31];
@@ -176,16 +160,6 @@ public class App {
 //                System.out.println("status_flag: "+ status_flag);
 //                System.out.println("string_error: "+ string_error);
 
-//                try {
-//                    if (string_status.endsWith("h") || string_status.endsWith("H")) {
-//                        string_status = string_status.substring(0, string_status.length() - 1);
-//                    }
-//                    status = Integer.parseInt(string_status,16);
-//                } catch (NumberFormatException e) {
-//                    logger.warning("Invalid status value in file " + file.getName() + ": " + string_status);
-//                    continue;
-//                }
-//                System.out.println("status: "+ status);
 
                 // get kvk_id
                 Integer kvkId = getKvkId(connection, nzav);
@@ -193,20 +167,7 @@ public class App {
                     logger.warning("No kvk_id found for nzav: " + nzav);
                     continue;
                 }
-//                System.out.println("kvkId: "+ kvkId);
-                // Перевірка аномалій (закоментовано для використання на етапі відладки)
-                /*
-                if (isTimestampAnomalous(connection, kvkId, unixtime)) {
-                    logger.warning("Anomalous timestamp for kvk_id: " + kvkId);
-                }
 
-                if (isPokazAnomalous(connection, kvkId, pokaz)) {
-                    logger.warning("Anomalous pokaz value for kvk_id: " + kvkId);
-                }
-                */
-
-                //saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meter_type, status_flag);
-                //processedData.add(new String[]{nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
                 saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meter_type, status_flag);
                 processedData.add(new String[]{String.valueOf(kvkId), nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
             }
@@ -220,9 +181,10 @@ public class App {
 
     // Метод для отримання kvk_id за nzav
     private static Integer getKvkId(Connection connection, String nzav) {
-        String query = "SELECT kvk_id FROM network WHERE meter_number = ?";
+        String query = "SELECT kvk_id FROM NETWORK WHERE meter_number = ?";
         try (PreparedStatement stmt = connection.prepareStatement(query)) {
             stmt.setString(1, nzav);
+//            System.out.println(nzav);
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
                 return rs.getInt("kvk_id");
@@ -234,39 +196,6 @@ public class App {
             return null;
         }
     }
-
-    // Закоментовані методи для перевірки аномалій
-    /*
-    private static boolean isTimestampAnomalous(Connection connection, int kvkId, long timestamp) {
-        String query = "SELECT MAX(unixtime) FROM meters_values WHERE kvk_id = ?";
-        try (PreparedStatement stmt = connection.prepareStatement(query)) {
-            stmt.setInt(1, kvkId);
-            ResultSet rs = stmt.executeQuery();
-            if (rs.next()) {
-                long maxTimestamp = rs.getLong(1);
-                return timestamp <= maxTimestamp;
-            }
-        } catch (SQLException e) {
-            logger.warning("Error checking timestamp anomaly: " + e.getMessage());
-        }
-        return false;
-    }
-
-    private static boolean isPokazAnomalous(Connection connection, int kvkId, float pokaz) {
-        String query = "SELECT MAX(pokaz) FROM meters_values WHERE kvk_id = ?";
-        try (PreparedStatement stmt = connection.prepareStatement(query)) {
-            stmt.setInt(1, kvkId);
-            ResultSet rs = stmt.executeQuery();
-            if (rs.next()) {
-                float maxPokaz = rs.getFloat(1);
-                return pokaz < maxPokaz;
-            }
-        } catch (SQLException e) {
-            logger.warning("Error checking pokaz anomaly: " + e.getMessage());
-        }
-        return false;
-    }
-    */
 
     private static void saveToDatabase(Connection connection, int kvkId, float pokaz, Timestamp unixtime, String nzav, String meter_type, int status) {
         String query = "INSERT INTO meters_values (kvk_id, unixtime, pokaz, nzav, sent, meter_type) VALUES (?, ?, ?, ?, ?, ?)";
