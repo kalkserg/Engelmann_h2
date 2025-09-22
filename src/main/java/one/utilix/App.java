@@ -17,12 +17,15 @@ public class App {
     private static final Logger logger = Logger.getLogger(App.class.getName());
 
     public static void main(String[] args) {
+        String path_data = "Input/Data/";
+        String path_archive = "Input/Archive/";
+        String path_processed = "Input/Processed/";
+
         setupLogger();
 
-        ensureDirectoriesExist("Test/Data", "Test/Archive", "Test/Processed");
+        ensureDirectoriesExist(path_data, path_archive, path_processed);
 
-        String folderPath = "Test/Data";
-        File folder = new File(folderPath);
+        File folder = new File(path_data);
         File[] files = folder.listFiles((dir, name) -> name.endsWith(".csv"));
 
         if (files == null || files.length == 0) {
@@ -30,7 +33,8 @@ public class App {
             return;
         }
 
-        String dbUrl = "jdbc:h2:file:/D:/Projects/Engelmann_source/mbus"; // файлова база
+        String dbUrl = "jdbc:h2:file:./mbus"; // файлова база
+        //String dbUrl = "jdbc:h2:file:/D:/Projects/Engelmann_source/mbus"; // файлова база
         String dbUser = "sa";
         String dbPassword = "";
 
@@ -46,9 +50,9 @@ public class App {
                 logger.info("Processing file: " + file.getName());
                 try {
                     List<String[]> processedData = processCsvFile(file, connection);
-                    File archiveFile = new File("Test/Archive/" + file.getName());
+                    File archiveFile = new File(path_archive + file.getName());
                     moveFile(file, archiveFile);
-                    File processedFile = new File("Test/Processed/" + file.getName());
+                    File processedFile = new File(path_processed + file.getName());
                     writeToCsv(processedData, processedFile);
                 } catch (Exception e) {
                     logger.severe("Error processing file " + file.getName() + ": " + e.getMessage());
@@ -71,7 +75,7 @@ public class App {
                     logger.severe("Failed to create directory: " + dir);
                 }
             } else {
-                logger.info("Directory exists: " + dir);
+                //logger.info("Directory exists: " + dir);
             }
         }
     }
@@ -209,7 +213,7 @@ public class App {
             preparedStatement.executeUpdate();
             logger.info("Data saved for kvk_id: " + kvkId);
         } catch (SQLException e) {
-            logger.severe("Error inserting data into database: " + e.getMessage());
+            logger.severe("Error inserting data into table meters_values: " + e.getMessage());
         }
         // save errors
         if (status != 0 & status > 4) { //inserting raw errors to DB 0-4 default value
@@ -224,7 +228,7 @@ public class App {
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
             } catch (SQLException e) {
-                logger.severe("Error inserting data into database: " + e.getMessage());
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
             }
         }
         if ((status & (1 << 4)) != 0) {//Magnet
@@ -239,7 +243,7 @@ public class App {
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
             } catch (SQLException e) {
-                logger.severe("Error inserting data into database: " + e.getMessage());
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
             }
         }
         if ((status & (1 << 3)) != 0) {//Influence
@@ -254,7 +258,7 @@ public class App {
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
             } catch (SQLException e) {
-                logger.severe("Error inserting data into database: " + e.getMessage());
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
             }
         }
         if ((status & (1 << 7)) != 0) { // backward flow
@@ -269,7 +273,7 @@ public class App {
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
             } catch (SQLException e) {
-                logger.severe("Error inserting data into database: " + e.getMessage());
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
             }
         }
         if (((status & (1)) != 0) | ((status & (1 << 2)) != 0)) {//Damage
@@ -284,7 +288,7 @@ public class App {
                 preparedStatement.executeUpdate();
                 logger.info("Data saved for kvk_id: " + kvkId);
             } catch (SQLException e) {
-                logger.severe("Error inserting data into database: " + e.getMessage());
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
             }
         }
     }
@@ -300,6 +304,7 @@ public class App {
     }
 
     private static void writeToCsv(List<String[]> data, File file) {
+//        file = new File("Test/Processed/aaa.csv");
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
             for (String[] row : data) {
                 bw.write(String.join(",", row));
