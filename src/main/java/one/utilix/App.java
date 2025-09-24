@@ -26,8 +26,9 @@ public class App {
         ensureDirectoriesExist(path_data, path_archive, path_processed);
 
         File folder = new File(path_data);
+        System.out.println(folder.getAbsolutePath());
         File[] files = folder.listFiles((dir, name) -> name.endsWith(".csv"));
-
+        System.out.println(files.length);
         if (files == null || files.length == 0) {
             logger.info("No CSV files found in the Data folder.");
             return;
@@ -139,7 +140,7 @@ public class App {
                         meter_type = "CWM";
                     } else
                     if ("WWater".equalsIgnoreCase(string_type)) {
-                        meter_type = "WWM";
+                        meter_type = "HWM";
                     } else
                     if ("Heat".equalsIgnoreCase(string_type)) {
                         meter_type = "HM";
