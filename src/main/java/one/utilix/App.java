@@ -45,33 +45,35 @@ public class App {
         try {
             Class.forName("org.h2.Driver");
 
-            Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
-            logger.info("Connected to the database.");
+            try (Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
+                logger.info("Connected to the database.");
 
-            for (File file : files) {
-                logger.info("Found file: " + file.getName());
-                //  Перевірка стабільності файлу
-                if (!isFileStable(file, 3, 2000)) {
-                    logger.warning("File " + file.getName() + " is still being uploaded. Skipping...");
-                    continue; // пропускаємо і чекаємо наступний цикл
+                for (File file : files) {
+                    logger.info("Found file: " + file.getName());
+                    //  Перевірка стабільності файлу
+                    if (!isFileStable(file, 3, 2000)) {
+                        logger.warning("File " + file.getName() + " is still being uploaded. Skipping...");
+                        continue; // пропускаємо і чекаємо наступний цикл
+                    }
+                    logger.info("Processing file: " + file.getName());
+                    try {
+                        List<String[]> processedData = processCsvFile(file, connection);
+                        File archiveFile = new File(path_archive + file.getName());
+                        moveFile(file, archiveFile);
+                        File processedFile = new File(path_processed + file.getName());
+                        writeToCsv(processedData, processedFile);
+                    } catch (Exception e) {
+                        logger.severe("Error processing file " + file.getName() + ": " + e.getMessage());
+                    }
                 }
-                logger.info("Processing file: " + file.getName());
-                try {
-                    List<String[]> processedData = processCsvFile(file, connection);
-                    File archiveFile = new File(path_archive + file.getName());
-                    moveFile(file, archiveFile);
-                    File processedFile = new File(path_processed + file.getName());
-                    writeToCsv(processedData, processedFile);
-                } catch (Exception e) {
-                    logger.severe("Error processing file " + file.getName() + ": " + e.getMessage());
-                }
+            } catch (SQLException e) {
+                logger.severe("Database connection error: " + e.getMessage());
             }
         } catch (ClassNotFoundException e) {
             logger.severe("Driver not found! " + e.getMessage());
-        } catch (SQLException e) {
-            logger.severe("Database connection error: " + e.getMessage());
         }
     }
+
 
     private static void ensureDirectoriesExist(String... directories) {
         for (String dir : directories) {
@@ -190,7 +192,6 @@ public class App {
 
         return processedData;
     }
-
 
 
     // Метод перевірки розміру
