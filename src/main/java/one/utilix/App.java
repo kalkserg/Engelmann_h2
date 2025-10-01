@@ -26,13 +26,14 @@ public class App {
         ensureDirectoriesExist(path_data, path_archive, path_processed);
 
         File folder = new File(path_data);
-        System.out.println(folder.getAbsolutePath());
+//        System.out.println(folder.getAbsolutePath());
         File[] files = folder.listFiles((dir, name) -> name.endsWith(".csv"));
-        System.out.println(files.length);
+//        System.out.println(files.length);
         if (files == null || files.length == 0) {
             logger.info("No CSV files found in the Data folder.");
             return;
         }
+
 
         String dbUrl = "jdbc:h2:file:./mbus"; // файлова база
         //String dbUrl = "jdbc:h2:file:/D:/Projects/Engelmann_source/mbus"; // файлова база
@@ -48,6 +49,12 @@ public class App {
             logger.info("Connected to the database.");
 
             for (File file : files) {
+                logger.info("Found file: " + file.getName());
+                //  Перевірка стабільності файлу
+                if (!isFileStable(file, 3, 2000)) {
+                    logger.warning("File " + file.getName() + " is still being uploaded. Skipping...");
+                    continue; // пропускаємо і чекаємо наступний цикл
+                }
                 logger.info("Processing file: " + file.getName());
                 try {
                     List<String[]> processedData = processCsvFile(file, connection);
@@ -182,6 +189,27 @@ public class App {
         }
 
         return processedData;
+    }
+
+
+
+    // Метод перевірки розміру
+    private static boolean isFileStable(File file, int attempts, int delayMs) {
+        long previousLength = -1;
+        for (int i = 0; i < attempts; i++) {
+            long length = file.length();
+            if (length == previousLength) {
+                return true; // розмір не змінився — файл стабільний
+            }
+            previousLength = length;
+            try {
+                Thread.sleep(delayMs);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return false;
+            }
+        }
+        return false;
     }
 
     // Метод для отримання kvk_id за nzav
