@@ -17,9 +17,12 @@ public class App {
     private static final Logger logger = Logger.getLogger(App.class.getName());
 
     public static void main(String[] args) {
-        String path_data = "Input/Data/";
-        String path_archive = "Input/Archive/";
-        String path_processed = "Input/Processed/";
+//        String path_data = "./";
+//        String path_archive = "archive/";
+//        String path_processed = "processed/";
+        String path_data = "/home/forengelman/ftp/files";
+        String path_archive = "/home/forengelman/ftp/files/archive/";
+        String path_processed = "/home/forengelman/ftp/files/processed/";
 
         setupLogger();
 
@@ -34,16 +37,12 @@ public class App {
             return;
         }
 
+        String dbUrl = "jdbc:mysql://localhost:3306/mbus?autoReconnect=true&useSSL=false&serverTimezone=UTC";
+        String dbUser = "mysqlengelman";
+        String dbPassword = "LkzTyutkmvfyf2025!";
 
-        String dbUrl = "jdbc:h2:file:./mbus"; // файлова база
-        //String dbUrl = "jdbc:h2:file:/D:/Projects/Engelmann_source/mbus"; // файлова база
-        String dbUser = "sa";
-        String dbPassword = "";
-
-
-        //try (Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
         try {
-            Class.forName("org.h2.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             try (Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
                 logger.info("Connected to the database.");
@@ -215,7 +214,7 @@ public class App {
 
     // Метод для отримання kvk_id за nzav
     private static Integer getKvkId(Connection connection, String nzav) {
-        String query = "SELECT kvk_id FROM NETWORK WHERE meter_number = ?";
+        String query = "SELECT kvk_id FROM network WHERE meter_number = ?";
         try (PreparedStatement stmt = connection.prepareStatement(query)) {
             stmt.setString(1, nzav);
 //            System.out.println(nzav);
@@ -348,7 +347,7 @@ public class App {
 
     private static void setupLogger() {
         try {
-            FileHandler fileHandler = new FileHandler("app.log", true);
+            FileHandler fileHandler = new FileHandler("Parser.log", true);
             fileHandler.setFormatter(new SimpleFormatter());
             logger.addHandler(fileHandler);
             logger.setLevel(Level.ALL);
