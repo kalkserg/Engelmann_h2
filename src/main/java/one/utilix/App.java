@@ -11,6 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.logging.*;
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVRecord;
 
 public class App {
 
@@ -89,108 +92,191 @@ public class App {
         }
     }
 
-    // Зчитування CSV з додатковими перевірками
+    // Зчитування CSV
     private static List<String[]> processCsvFile(File file, Connection connection) throws IOException {
         List<String[]> processedData = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-            String line;
+        try (Reader reader = new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8);
+             CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
+                     .withDelimiter('\t')            // якщо у тебе табуляція
+                     .withFirstRecordAsHeader()      // перший рядок — це заголовки
+                     .withTrim())) {
 
-            while ((line = br.readLine()) != null) {
-                String[] values = line.split(";");
-                if (!Objects.equals(values[0], "SND_NR")) {
-                    //logger.warning("Skipping malformed line in file " + file.getName() + ": " + line);
-                    continue;
-                }
-//                System.out.println(line);
-//                for(int i=0; i< values.length; i++) {
-                    //System.out.println(i + "  " + values[i]);
-//                }
-                String nzav = values[6];
-                String string_value = values[32];
-                String string_time = values[31];
-                //String string_status = values[11];
-                String string_error = values[15];
-                String string_type = values[9];
-                float pokaz;
-                //long unixtime;
-                Timestamp unixtime;
-                int status_flag;
-                String meter_type = "";
-
-//                System.out.println("nzav: "+ nzav);
-
-                // get value
+            for (CSVRecord record : csvParser) {
                 try {
-                    pokaz = Float.parseFloat(string_value.replace(',', '.'));
-                } catch (NumberFormatException e) {
-                    logger.warning("Invalid pokaz value in file " + file.getName() + ": " + string_value);
-                    continue;
-                }
-//                System.out.println("pokaz: "+ pokaz);
+                    // Основні поля
+                    String nzav = record.get("Meter ID").trim();
+                    String stringValue = record.get("IV,0,0,0,m^3,Vol").trim();
+                    String stringTime = record.get("IV,0,0,0,,Date/Time").trim();
+                    String stringError = record.get("IV,0,0,0,,ErrorFlags(binary)(deviceType specific)").trim();
+                    String stringType = record.get("Device Type").trim();
 
-                // get time
-                try {
-                    String clean = string_time.split(" ")[0] + " " + string_time.split(" ")[1];
-                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
-                    LocalDateTime ldt = LocalDateTime.parse(clean, formatter);
-                    //unixtime = ldt.atZone(ZoneId.of("UTC")).toEpochSecond();
-                    unixtime = Timestamp.valueOf(ldt);
-                } catch (NumberFormatException e) {
-                    logger.warning("Invalid timestamp in file " + file.getName() + ": " + string_time);
-                    continue;
-                }
-//                System.out.println("unixtime: "+ unixtime);
+                    float pokaz;
+                    Timestamp unixtime;
+                    int statusFlag;
+                    String meterType = "";
 
-                // get meter type
-                try {
-                    if ("ColdWater".equalsIgnoreCase(string_type)) {
-                        meter_type = "CWM";
-                    } else
-                    if ("WWater".equalsIgnoreCase(string_type)) {
-                        meter_type = "HWM";
-                    } else
-                    if ("Heat".equalsIgnoreCase(string_type)) {
-                        meter_type = "HM";
+                    //  Значення
+                    try {
+                        pokaz = Float.parseFloat(stringValue.replace(',', '.'));
+                    } catch (NumberFormatException e) {
+                        logger.warning("Invalid pokaz value: " + stringValue);
+                        continue;
                     }
-                } catch (NumberFormatException e) {
-                    logger.warning("Invalid meter type value in file " + file.getName() + ": " + string_type);
-                    continue;
-                }
-//                System.out.println("meter_type: "+ meter_type);
-//                System.out.println("string_type: "+ string_type);
 
-                // get errors
-                try {
-                    if (string_error.endsWith("b") || string_error.endsWith("B")) {
-                        string_error = string_error.substring(0, string_error.length() - 1);
+                    //  Час
+                    try {
+                        String clean = stringTime.split(" ")[0] + " " + stringTime.split(" ")[1];
+                        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
+                        LocalDateTime ldt = LocalDateTime.parse(clean, formatter);
+                        unixtime = Timestamp.valueOf(ldt);
+                    } catch (Exception e) {
+                        logger.warning("Invalid timestamp: " + stringTime);
+                        continue;
                     }
-                    status_flag = Integer.parseInt(string_error, 2);
-                } catch (NumberFormatException e) {
-                    logger.warning("Invalid error value in file " + file.getName() + ": " + string_error);
-                    continue;
+
+                    //  Тип лічильника
+                    if ("ColdWater".equalsIgnoreCase(stringType)) {
+                        meterType = "CWM";
+                    } else if ("WWater".equalsIgnoreCase(stringType)) {
+                        meterType = "HWM";
+                    } else if ("HeatMInlet".equalsIgnoreCase(stringType)) {
+                        meterType = "HM";
+                    }
+
+                    //  Статус/помилки
+                    try {
+                        if (stringError.endsWith("b") || stringError.endsWith("B")) {
+                            stringError = stringError.substring(0, stringError.length() - 1);
+                        }
+                        statusFlag = Integer.parseInt(stringError, 2);
+                    } catch (NumberFormatException e) {
+                        logger.warning("Invalid error value: " + stringError);
+                        continue;
+                    }
+
+                    //  KVK_ID
+                    Integer kvkId = getKvkId(connection, nzav);
+                    if (kvkId == null) {
+                        logger.warning("No kvk_id found for nzav: " + nzav);
+                        continue;
+                    }
+
+                    //  Збереження у БД
+                    saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meterType, statusFlag);
+                    processedData.add(new String[]{String.valueOf(kvkId), nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
+
+                } catch (Exception e) {
+                    logger.warning("Error processing record: " + e.getMessage());
                 }
-//                System.out.println("status_flag: "+ status_flag);
-//                System.out.println("string_error: "+ string_error);
-
-
-                // get kvk_id
-                Integer kvkId = getKvkId(connection, nzav);
-                if (kvkId == null) {
-                    logger.warning("No kvk_id found for nzav: " + nzav);
-                    continue;
-                }
-
-                saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meter_type, status_flag);
-                processedData.add(new String[]{String.valueOf(kvkId), nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
             }
-        } catch (IOException e) {
-            logger.severe("Error reading file " + file.getName() + ": " + e.getMessage());
-            throw e;
         }
 
         return processedData;
     }
+
+//    // Зчитування CSV з додатковими перевірками
+//    private static List<String[]> processCsvFile(File file, Connection connection) throws IOException {
+//        List<String[]> processedData = new ArrayList<>();
+//
+//        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+//            String line;
+//
+//            while ((line = br.readLine()) != null) {
+//                String[] values = line.split(";");
+//                if (!Objects.equals(values[0], "SND_NR")) {
+//                    //logger.warning("Skipping malformed line in file " + file.getName() + ": " + line);
+//                    continue;
+//                }
+////                System.out.println(line);
+////                for(int i=0; i< values.length; i++) {
+//                    //System.out.println(i + "  " + values[i]);
+////                }
+//                String nzav = values[6];
+//                String string_value = values[32];
+//                String string_time = values[31];
+//                //String string_status = values[11];
+//                String string_error = values[15];
+//                String string_type = values[9];
+//                float pokaz;
+//                //long unixtime;
+//                Timestamp unixtime;
+//                int status_flag;
+//                String meter_type = "";
+//
+////                System.out.println("nzav: "+ nzav);
+//
+//                // get value
+//                try {
+//                    pokaz = Float.parseFloat(string_value.replace(',', '.'));
+//                } catch (NumberFormatException e) {
+//                    logger.warning("Invalid pokaz value in file " + file.getName() + ": " + string_value);
+//                    continue;
+//                }
+////                System.out.println("pokaz: "+ pokaz);
+//
+//                // get time
+//                try {
+//                    String clean = string_time.split(" ")[0] + " " + string_time.split(" ")[1];
+//                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
+//                    LocalDateTime ldt = LocalDateTime.parse(clean, formatter);
+//                    //unixtime = ldt.atZone(ZoneId.of("UTC")).toEpochSecond();
+//                    unixtime = Timestamp.valueOf(ldt);
+//                } catch (NumberFormatException e) {
+//                    logger.warning("Invalid timestamp in file " + file.getName() + ": " + string_time);
+//                    continue;
+//                }
+////                System.out.println("unixtime: "+ unixtime);
+//
+//                // get meter type
+//                try {
+//                    if ("ColdWater".equalsIgnoreCase(string_type)) {
+//                        meter_type = "CWM";
+//                    } else
+//                    if ("WWater".equalsIgnoreCase(string_type)) {
+//                        meter_type = "HWM";
+//                    } else
+//                    if ("Heat".equalsIgnoreCase(string_type)) {
+//                        meter_type = "HM";
+//                    }
+//                } catch (NumberFormatException e) {
+//                    logger.warning("Invalid meter type value in file " + file.getName() + ": " + string_type);
+//                    continue;
+//                }
+////                System.out.println("meter_type: "+ meter_type);
+////                System.out.println("string_type: "+ string_type);
+//
+//                // get errors
+//                try {
+//                    if (string_error.endsWith("b") || string_error.endsWith("B")) {
+//                        string_error = string_error.substring(0, string_error.length() - 1);
+//                    }
+//                    status_flag = Integer.parseInt(string_error, 2);
+//                } catch (NumberFormatException e) {
+//                    logger.warning("Invalid error value in file " + file.getName() + ": " + string_error);
+//                    continue;
+//                }
+////                System.out.println("status_flag: "+ status_flag);
+////                System.out.println("string_error: "+ string_error);
+//
+//
+//                // get kvk_id
+//                Integer kvkId = getKvkId(connection, nzav);
+//                if (kvkId == null) {
+//                    logger.warning("No kvk_id found for nzav: " + nzav);
+//                    continue;
+//                }
+//
+//                saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meter_type, status_flag);
+//                processedData.add(new String[]{String.valueOf(kvkId), nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
+//            }
+//        } catch (IOException e) {
+//            logger.severe("Error reading file " + file.getName() + ": " + e.getMessage());
+//            throw e;
+//        }
+//
+//        return processedData;
+//    }
 
 
     // Метод перевірки розміру

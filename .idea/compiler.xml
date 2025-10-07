@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="integration" />
         <module name="Engelmann_h2" />
+        <module name="Parser" />
       </profile>
     </annotationProcessing>
   </component>
