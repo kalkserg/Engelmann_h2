@@ -1,16 +1,19 @@
 package one.utilix;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.sql.*;
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
+import java.util.Date;
 import java.util.logging.*;
+
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
@@ -31,14 +34,52 @@ public class App {
 
         ensureDirectoriesExist(path_data, path_archive, path_processed);
 
-        File folder = new File(path_data);
-//        System.out.println(folder.getAbsolutePath());
-        File[] files = folder.listFiles((dir, name) -> name.endsWith(".csv"));
-//        System.out.println(files.length);
+        File[] files = null;           // масив CSV файлів
+        if (args.length > 0) {
+            switch (args[0]) {
+                case "-h":
+                case "--help":
+                    printUsage();
+                    return;
+                case "-f":
+                    if (args.length < 2) {
+                        System.out.println("Error: Missing file path after -f");
+                        return;
+                    }
+                    String filePath = args[1];
+                    File singleFile = new File(filePath);
+                    if (!singleFile.exists()) {
+                        System.out.println("Error: File not found -> " + filePath);
+                        return;
+                    }
+                    files = new File[]{ singleFile }; // переопределюємо files
+                    break;
+                default:
+                    System.out.println("Unknown option: " + args[0]);
+                    printUsage();
+                    return;
+            }
+        }
+
+        // === Якщо files ще не визначено, читаємо всю папку ===
+        if (files == null) {
+            File folder = new File(path_data);
+            files = folder.listFiles((dir, name) -> name.endsWith(".csv"));
+        }
+
         if (files == null || files.length == 0) {
             logger.info("No CSV files found in the Data folder.");
             return;
         }
+
+//        File folder = new File(path_data);
+////        System.out.println(folder.getAbsolutePath());
+//        File[] files = folder.listFiles((dir, name) -> name.endsWith(".csv"));
+////        System.out.println(files.length);
+//        if (files == null || files.length == 0) {
+//            logger.info("No CSV files found in the Data folder.");
+//            return;
+//        }
 
         String dbUrl = "jdbc:mysql://localhost:3306/mbus?autoReconnect=true&useSSL=false&serverTimezone=UTC";
         String dbUser = "mysqlengelman";
@@ -50,13 +91,51 @@ public class App {
             try (Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
                 logger.info("Connected to the database.");
 
+
                 for (File file : files) {
                     logger.info("Found file: " + file.getName());
-                    //  Перевірка стабільності файлу
+
+                    // Перевіряємо, що це CSV
+                    if (!file.getName().endsWith(".csv")) {
+                        logger.info("Skipping non-CSV file: " + file.getName());
+                        continue;
+                    }
+
+                    // Визначаємо відповідний лог-файл
+                    String logFileName = file.getName().replace(".csv", ".log");
+                    File logFile = new File(file.getParent(), logFileName);
+
+                    boolean success = true; // за замовчуванням обробляємо CSV
+                    if (logFile.exists()) {
+                        // Перевіряємо лог
+                        success = false;
+                        try {
+                            List<String> lines = Files.readAllLines(logFile.toPath());
+                            for (String line : lines) {
+                                if (line.trim().equals("195=0")) {
+                                    success = true;
+                                    break;
+                                }
+                            }
+                        } catch (IOException e) {
+                            logger.warning("Cannot read log file: " + logFile.getName());
+                        }
+
+                        if (!success) {
+                            logger.warning("Log file indicates CSV is not ready: " + logFile.getName() + ". Skipping...");
+                            continue;
+                        }
+                    } else {
+                        logger.info("Log file not found for " + file.getName() + ". Processing CSV anyway.");
+                    }
+
+                    // Перевірка стабільності файлу
                     if (!isFileStable(file, 3, 2000)) {
                         logger.warning("File " + file.getName() + " is still being uploaded. Skipping...");
-                        continue; // пропускаємо і чекаємо наступний цикл
+                        continue;
                     }
+
+                    // Обробка CSV
                     logger.info("Processing file: " + file.getName());
                     try {
                         List<String[]> processedData = processCsvFile(file, connection);
@@ -64,10 +143,40 @@ public class App {
                         moveFile(file, archiveFile);
                         File processedFile = new File(path_processed + file.getName());
                         writeToCsv(processedData, processedFile);
+
+                        // Якщо лог існує — видаляємо його
+                        if (logFile.exists() && logFile.delete()) {
+                            logger.info("Deleted log file: " + logFile.getName());
+                        } else if (logFile.exists()) {
+                            logger.warning("Failed to delete log file: " + logFile.getName());
+                        }
+
                     } catch (Exception e) {
                         logger.severe("Error processing file " + file.getName() + ": " + e.getMessage());
                     }
                 }
+
+
+                /// ///////////////////
+//                for (File file : files) {
+//                    logger.info("Found file: " + file.getName());
+//                    //  Перевірка стабільності файлу
+//                    if (!isFileStable(file, 3, 2000)) {
+//                        logger.warning("File " + file.getName() + " is still being uploaded. Skipping...");
+//                        continue; // пропускаємо і чекаємо наступний цикл
+//                    }
+//                    logger.info("Processing file: " + file.getName());
+//                    try {
+//                        List<String[]> processedData = processCsvFile(file, connection);
+//                        File archiveFile = new File(path_archive + file.getName());
+//                        moveFile(file, archiveFile);
+//                        File processedFile = new File(path_processed + file.getName());
+//                        writeToCsv(processedData, processedFile);
+//                    } catch (Exception e) {
+//                        logger.severe("Error processing file " + file.getName() + ": " + e.getMessage());
+//                    }
+//                }
+
             } catch (SQLException e) {
                 logger.severe("Database connection error: " + e.getMessage());
             }
@@ -96,84 +205,120 @@ public class App {
     private static List<String[]> processCsvFile(File file, Connection connection) throws IOException {
         List<String[]> processedData = new ArrayList<>();
 
-        try (Reader reader = new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8);
-             CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
-                     .withDelimiter('\t')            // якщо у тебе табуляція
-                     .withFirstRecordAsHeader()      // перший рядок — це заголовки
-                     .withTrim())) {
+        try (BufferedReader reader = new BufferedReader(
+                new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8))) {
 
-            for (CSVRecord record : csvParser) {
-                try {
-                    // Основні поля
-                    String nzav = record.get("Meter ID").trim();
-                    String stringValue = record.get("IV,0,0,0,m^3,Vol").trim();
-                    String stringTime = record.get("IV,0,0,0,,Date/Time").trim();
-                    String stringError = record.get("IV,0,0,0,,ErrorFlags(binary)(deviceType specific)").trim();
-                    String stringType = record.get("Device Type").trim();
+            String headerLine = null;
+            String line;
+            int lineNumber = 0;
 
-                    float pokaz;
-                    Timestamp unixtime;
-                    int statusFlag;
-                    String meterType = "";
+            while ((line = reader.readLine()) != null) {
+                lineNumber++;
+                line = line.trim();
 
-                    //  Значення
-                    try {
-                        pokaz = Float.parseFloat(stringValue.replace(',', '.'));
-                    } catch (NumberFormatException e) {
-                        logger.warning("Invalid pokaz value: " + stringValue);
-                        continue;
+                // Пропуск пустих рядків
+                if (line.isEmpty()) continue;
+
+                // Пропуск сигнальних рядків
+                if (line.equals("«File completely written»")) continue;
+
+                // Якщо це новий заголовок
+                if (line.startsWith("Frame Type")) {
+                    headerLine = line;
+                    continue;
+                }
+
+                // Якщо є заголовок — обробляємо дані
+                if (headerLine != null) {
+                    String[] headers = headerLine.split(";");
+                    String[] values = line.split(";");
+                    Map<String, String> record = new HashMap<>();
+
+                    for (int i = 0; i < Math.min(headers.length, values.length); i++) {
+                        record.put(headers[i].trim(), values[i].trim());
                     }
 
-                    //  Час
                     try {
-                        String clean = stringTime.split(" ")[0] + " " + stringTime.split(" ")[1];
-                        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
-                        LocalDateTime ldt = LocalDateTime.parse(clean, formatter);
-                        unixtime = Timestamp.valueOf(ldt);
-                    } catch (Exception e) {
-                        logger.warning("Invalid timestamp: " + stringTime);
-                        continue;
-                    }
+                        String nzav = record.containsKey("Meter ID") ? record.get("Meter ID").trim() : "";
+                        String stringValue = record.containsKey("IV,0,0,0,m^3,Vol") ? record.get("IV,0,0,0,m^3,Vol").trim() : "";
+                        String stringTime = record.containsKey("IV,0,0,0,,Date/Time") ? record.get("IV,0,0,0,,Date/Time").trim() : "";
+                        String stringError = record.containsKey("IV,0,0,0,,ErrorFlags(binary)(deviceType specific)") ?
+                                record.get("IV,0,0,0,,ErrorFlags(binary)(deviceType specific)").trim() : "";
+                        String stringType = record.containsKey("Device Type") ? record.get("Device Type").trim() : "";
 
-                    //  Тип лічильника
-                    if ("ColdWater".equalsIgnoreCase(stringType)) {
-                        meterType = "CWM";
-                    } else if ("WWater".equalsIgnoreCase(stringType)) {
-                        meterType = "HWM";
-                    } else if ("HeatMInlet".equalsIgnoreCase(stringType)) {
-                        meterType = "HM";
-                    }
-
-                    //  Статус/помилки
-                    try {
-                        if (stringError.endsWith("b") || stringError.endsWith("B")) {
-                            stringError = stringError.substring(0, stringError.length() - 1);
+                        if (nzav.isEmpty() || stringValue.isEmpty() || stringTime.isEmpty()) {
+                            logger.warning("Line " + lineNumber + ": missing required fields");
+                            continue;
                         }
-                        statusFlag = Integer.parseInt(stringError, 2);
-                    } catch (NumberFormatException e) {
-                        logger.warning("Invalid error value: " + stringError);
-                        continue;
+
+                        float pokaz;
+                        Timestamp unixtime;
+                        int statusFlag;
+                        String meterType;
+
+                        // Парс показників
+                        try {
+                            pokaz = Float.parseFloat(stringValue.replace(',', '.'));
+                        } catch (NumberFormatException e) {
+                            logger.warning("Line " + lineNumber + ": invalid pokaz " + stringValue);
+                            continue;
+                        }
+
+                        // Парс дати
+                        try {
+                            String[] parts = stringTime.split(" ");
+                            String clean = parts[0] + " " + parts[1];
+                            SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH:mm");
+                            Date date = sdf.parse(clean);
+                            unixtime = new Timestamp(date.getTime());
+                        } catch (Exception e) {
+                            logger.warning("Line " + lineNumber + ": invalid timestamp " + stringTime);
+                            continue;
+                        }
+
+                        // Тип лічильника (без switch expression)
+                        meterType = "UNKNOWN";
+                        if (stringType.equalsIgnoreCase("coldwater")) {
+                            meterType = "CWM";
+                        } else if (stringType.equalsIgnoreCase("wwater")) {
+                            meterType = "HWM";
+                        } else if (stringType.equalsIgnoreCase("heatminlet")) {
+                            meterType = "HM";
+                        }
+
+                        // Парс статусу
+                        try {
+                            if (stringError.endsWith("b") || stringError.endsWith("B")) {
+                                stringError = stringError.substring(0, stringError.length() - 1);
+                            }
+                            statusFlag = Integer.parseInt(stringError, 2);
+                        } catch (NumberFormatException e) {
+                            logger.warning("Line " + lineNumber + ": invalid error value " + stringError);
+                            continue;
+                        }
+
+                        // kvk_id
+                        Integer kvkId = getKvkId(connection, nzav);
+                        if (kvkId == null) {
+                            logger.warning("Line " + lineNumber + ": no kvk_id found for nzav " + nzav);
+                            continue;
+                        }
+
+                        // Зберегти у базу
+                        saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meterType, statusFlag);
+                        processedData.add(new String[]{String.valueOf(kvkId), nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
+
+                    } catch (Exception e) {
+                        logger.warning("Error processing record at line " + lineNumber + ": " + e.getMessage());
                     }
-
-                    //  KVK_ID
-                    Integer kvkId = getKvkId(connection, nzav);
-                    if (kvkId == null) {
-                        logger.warning("No kvk_id found for nzav: " + nzav);
-                        continue;
-                    }
-
-                    //  Збереження у БД
-                    saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meterType, statusFlag);
-                    processedData.add(new String[]{String.valueOf(kvkId), nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
-
-                } catch (Exception e) {
-                    logger.warning("Error processing record: " + e.getMessage());
                 }
             }
         }
 
         return processedData;
     }
+
+
 
 //    // Зчитування CSV з додатковими перевірками
 //    private static List<String[]> processCsvFile(File file, Connection connection) throws IOException {
@@ -256,8 +401,9 @@ public class App {
 //                    logger.warning("Invalid error value in file " + file.getName() + ": " + string_error);
 //                    continue;
 //                }
-////                System.out.println("status_flag: "+ status_flag);
-////                System.out.println("string_error: "+ string_error);
+
+    /// /                System.out.println("status_flag: "+ status_flag);
+    /// /                System.out.println("string_error: "+ string_error);
 //
 //
 //                // get kvk_id
@@ -441,5 +587,18 @@ public class App {
         } catch (IOException e) {
             System.err.println("Failed to initialize logger: " + e.getMessage());
         }
+    }
+
+    private static void printUsage() {
+        System.out.println("Usage:");
+        System.out.println("  java -jar Parser.jar [options]");
+        System.out.println();
+        System.out.println("Options:");
+        System.out.println("  -h, --help       Show this help message");
+        System.out.println("  -f <file>        Specify CSV file to process");
+        System.out.println();
+        System.out.println("Examples:");
+        System.out.println("  java -jar Parser.jar -h");
+        System.out.println("  java -jar Parser.jar -f data.csv");
     }
 }
