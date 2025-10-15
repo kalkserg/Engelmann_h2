@@ -35,6 +35,7 @@ public class App {
         ensureDirectoriesExist(path_data, path_archive, path_processed);
 
         File[] files = null;           // масив CSV файлів
+        String filePath = null;
         if (args.length > 0) {
             switch (args[0]) {
                 case "-h":
@@ -46,7 +47,7 @@ public class App {
                         System.out.println("Error: Missing file path after -f");
                         return;
                     }
-                    String filePath = args[1];
+                    filePath = args[1];
                     File singleFile = new File(filePath);
                     if (!singleFile.exists()) {
                         System.out.println("Error: File not found -> " + filePath);
@@ -80,6 +81,9 @@ public class App {
 //            logger.info("No CSV files found in the Data folder.");
 //            return;
 //        }
+
+        // --- Перевірка наявності CSV-файлів для всіх пристроїв ---
+        if(filePath == null) checkMissingCsvFiles(path_data);
 
         String dbUrl = "jdbc:mysql://localhost:3306/mbus?autoReconnect=true&useSSL=false&serverTimezone=UTC";
         String dbUser = "mysqlengelman";
@@ -300,7 +304,7 @@ public class App {
                         // kvk_id
                         Integer kvkId = getKvkId(connection, nzav);
                         if (kvkId == null) {
-                            logger.warning("Line " + lineNumber + ": no kvk_id found for nzav " + nzav);
+                            logger.warning("Line " + lineNumber + ": no kvk_id found for nzav ----- " + nzav);
                             continue;
                         }
 
@@ -477,67 +481,7 @@ public class App {
             logger.severe("Error inserting data into table meters_values: " + e.getMessage());
         }
         // save errors
-        if (status != 0 & status > 4) { //inserting raw errors to DB 0-4 default value
-            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
-            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
-                preparedStatement.setInt(1, kvkId);
-                preparedStatement.setTimestamp(2, unixtime);
-                preparedStatement.setFloat(3, status);
-                preparedStatement.setString(4, nzav);
-                preparedStatement.setInt(5, 0);
-                preparedStatement.setString(6, meter_type);
-                preparedStatement.executeUpdate();
-                logger.info("Data saved for kvk_id: " + kvkId);
-            } catch (SQLException e) {
-                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
-            }
-        }
-        if ((status & (1 << 4)) != 0) {//Magnet
-            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
-            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
-                preparedStatement.setInt(1, kvkId);
-                preparedStatement.setTimestamp(2, unixtime);
-                preparedStatement.setFloat(3, 1); // magnet manipulation
-                preparedStatement.setString(4, nzav);
-                preparedStatement.setInt(5, 0);
-                preparedStatement.setString(6, meter_type);
-                preparedStatement.executeUpdate();
-                logger.info("Data saved for kvk_id: " + kvkId);
-            } catch (SQLException e) {
-                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
-            }
-        }
-        if ((status & (1 << 3)) != 0) {//Influence
-            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
-            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
-                preparedStatement.setInt(1, kvkId);
-                preparedStatement.setTimestamp(2, unixtime);
-                preparedStatement.setFloat(3, 2); // influence
-                preparedStatement.setString(4, nzav);
-                preparedStatement.setInt(5, 0);
-                preparedStatement.setString(6, meter_type);
-                preparedStatement.executeUpdate();
-                logger.info("Data saved for kvk_id: " + kvkId);
-            } catch (SQLException e) {
-                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
-            }
-        }
-        if ((status & (1 << 7)) != 0) { // backward flow
-            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
-            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
-                preparedStatement.setInt(1, kvkId);
-                preparedStatement.setTimestamp(2, unixtime);
-                preparedStatement.setFloat(3, 3); // backward flow
-                preparedStatement.setString(4, nzav);
-                preparedStatement.setInt(5, 0);
-                preparedStatement.setString(6, meter_type);
-                preparedStatement.executeUpdate();
-                logger.info("Data saved for kvk_id: " + kvkId);
-            } catch (SQLException e) {
-                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
-            }
-        }
-        if (((status & (1)) != 0) | ((status & (1 << 2)) != 0)) {//Damage
+        if (((status & (1)) != 0) | ((status & (1 << 2)) != 0)) { // 0000 0001 Неисправность сканирующей катушки; 0000 0010 Ошибка контрольной суммы
             query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
                 preparedStatement.setInt(1, kvkId);
@@ -547,7 +491,67 @@ public class App {
                 preparedStatement.setInt(5, 0);
                 preparedStatement.setString(6, meter_type);
                 preparedStatement.executeUpdate();
-                logger.info("Data saved for kvk_id: " + kvkId);
+                logger.info("Damage Error saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
+            }
+        }else
+        if ((status & (1 << 4)) != 0) {// 0001 0000 Магнитная манипуляция
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setTimestamp(2, unixtime);
+                preparedStatement.setFloat(3, 1); // magnet manipulation
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setInt(5, 0);
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Magnet Error saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
+            }
+        }else
+        if ((status & (1 << 3)) != 0) {// 0000 1000 Обнаружение снятия модуля
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setTimestamp(2, unixtime);
+                preparedStatement.setFloat(3, 2); // influence
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setInt(5, 0);
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Influence Error saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
+            }
+        }else
+        if ((status & (1 << 7)) != 0) { // 1000 0000 Слишком большой объем обратного потока
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setTimestamp(2, unixtime);
+                preparedStatement.setFloat(3, 3); // backward flow
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setInt(5, 0);
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Backward flow Error saved for kvk_id: " + kvkId);
+            } catch (SQLException e) {
+                logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
+            }
+        }else
+        if (status != 0 & status > 4) { // inserting raw errors to DB 0-4 default value
+            query = "INSERT INTO meters_errors (kvk_id, unixtime, err_no, nzav, sent, meter_type) VALUES (?,?,?,?,?,?);";
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setInt(1, kvkId);
+                preparedStatement.setTimestamp(2, unixtime);
+                preparedStatement.setFloat(3, status);
+                preparedStatement.setString(4, nzav);
+                preparedStatement.setInt(5, 0);
+                preparedStatement.setString(6, meter_type);
+                preparedStatement.executeUpdate();
+                logger.info("Raw Error saved for kvk_id: " + kvkId);
             } catch (SQLException e) {
                 logger.severe("Error inserting data into table meters_errors: " + e.getMessage());
             }
@@ -588,6 +592,83 @@ public class App {
             System.err.println("Failed to initialize logger: " + e.getMessage());
         }
     }
+
+    private static void checkMissingCsvFiles(String path_data) {
+        File gwListFile = new File("gw_list.txt");
+        if (!gwListFile.exists()) {
+            logger.warning("File 'gw_list.txt' not found — skipping gateway check.");
+            return;
+        }
+
+        Map<String, String> gwMap = new LinkedHashMap<>();
+
+        // Завантажуємо список дозволених gateway з примітками
+        try (BufferedReader reader = new BufferedReader(new FileReader(gwListFile, StandardCharsets.UTF_8))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                line = line.trim();
+                if (line.isEmpty()) continue;
+
+                String[] parts = line.split(";", 2);
+                String id = parts[0].trim();
+                String note = parts.length > 1 ? parts[1].trim() : "";
+                gwMap.put(id, note);
+            }
+        } catch (IOException e) {
+            logger.warning("Failed to read 'gw_list.txt': " + e.getMessage());
+            return;
+        }
+
+        // Зчитуємо файли у папці
+        File folder = new File(path_data);
+        File[] csvFiles = folder.listFiles((dir, name) -> name.endsWith(".csv"));
+        if (csvFiles == null) {
+            logger.warning("No CSV files found in directory: " + path_data);
+            return;
+        }
+
+        Set<String> foundIds = new HashSet<>();
+        Set<String> extraIds = new HashSet<>();
+
+        for (File file : csvFiles) {
+            String name = file.getName();
+            if (name.contains("_")) {
+                String id = name.split("_")[0];
+                if (gwMap.containsKey(id)) {
+                    foundIds.add(id);
+                } else {
+                    extraIds.add(id);
+                }
+            }
+        }
+
+        // Логуємо відсутні файли
+        int missingCount = 0;
+        for (Map.Entry<String, String> entry : gwMap.entrySet()) {
+            String id = entry.getKey();
+            String note = entry.getValue();
+            if (!foundIds.contains(id)) {
+                missingCount++;
+                logger.info("Missing CSV file for gateway " + id +
+                        (note.isEmpty() ? "" : " (" + note + ")"));
+            }
+        }
+
+        // Логуємо зайві файли
+        int extraCount = 0;
+        for (String id : extraIds) {
+            extraCount++;
+            logger.info("Unexpected CSV file found for unknown gateway " + id);
+        }
+
+        // Підсумок
+//        logger.info("✅ Gateway CSV check completed: " +
+//                gwMap.size() + " expected, " +
+//                foundIds.size() + " found, " +
+//                missingCount + " missing, " +
+//                extraCount + " unexpected.");
+    }
+
 
     private static void printUsage() {
         System.out.println("Usage:");
