@@ -308,7 +308,14 @@ public class App {
                             continue;
                         }
 
-                        // Зберегти у базу
+                        // Перевірка на дубль
+                        if (isDuplicate(connection, kvkId, unixtime)) {
+                            logger.warning("Duplicate entry detected for kvk_id=" + kvkId + " at " + unixtime +
+                                    ". Skipping this record.");
+                            continue; // пропускаємо цей запис
+                        }
+
+                        // Зберегти у базу, якщо дубля немає
                         saveToDatabase(connection, kvkId, pokaz, unixtime, nzav, meterType, statusFlag);
                         processedData.add(new String[]{String.valueOf(kvkId), nzav, String.valueOf(pokaz), String.valueOf(unixtime)});
 
@@ -669,6 +676,20 @@ public class App {
 //                extraCount + " unexpected.");
     }
 
+    private static boolean isDuplicate(Connection connection, int kvkId, Timestamp unixtime) {
+        String query = "SELECT COUNT(*) FROM meters_values WHERE kvk_id = ? AND unixtime = ?";
+        try (PreparedStatement stmt = connection.prepareStatement(query)) {
+            stmt.setInt(1, kvkId);
+            stmt.setTimestamp(2, unixtime);
+            ResultSet rs = stmt.executeQuery();
+            if (rs.next()) {
+                return rs.getInt(1) > 0;
+            }
+        } catch (SQLException e) {
+            logger.warning("Error checking duplicate for kvk_id=" + kvkId + ": " + e.getMessage());
+        }
+        return false;
+    }
 
     private static void printUsage() {
         System.out.println("Usage:");
