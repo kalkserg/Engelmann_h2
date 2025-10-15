@@ -669,11 +669,11 @@ public class App {
         }
 
         // Підсумок
-//        logger.info("✅ Gateway CSV check completed: " +
-//                gwMap.size() + " expected, " +
-//                foundIds.size() + " found, " +
-//                missingCount + " missing, " +
-//                extraCount + " unexpected.");
+        logger.info("Gateway CSV check completed: " +
+                gwMap.size() + " expected, " +
+                foundIds.size() + " found, " +
+                missingCount + " missing, " +
+                extraCount + " unexpected.");
     }
 
     private static boolean isDuplicate(Connection connection, int kvkId, Timestamp unixtime) {
