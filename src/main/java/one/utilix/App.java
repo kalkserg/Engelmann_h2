@@ -36,6 +36,7 @@ public class App {
 
         File[] files = null;           // масив CSV файлів
         String filePath = null;
+        boolean compareDuplicatedStatus = true;
         if (args.length > 0) {
             switch (args[0]) {
                 case "-h":
@@ -54,6 +55,10 @@ public class App {
                         return;
                     }
                     files = new File[]{ singleFile }; // переопределюємо files
+                    break;
+                case  "-a":
+                case "--all":
+                    compareDuplicatedStatus = false;
                     break;
                 default:
                     System.out.println("Unknown option: " + args[0]);
@@ -142,7 +147,7 @@ public class App {
                     // Обробка CSV
                     logger.info("Processing file: " + file.getName());
                     try {
-                        List<String[]> processedData = processCsvFile(file, connection);
+                        List<String[]> processedData = processCsvFile(file, connection, compareDuplicatedStatus);
                         File archiveFile = new File(path_archive + file.getName());
                         moveFile(file, archiveFile);
                         File processedFile = new File(path_processed + file.getName());
@@ -206,7 +211,7 @@ public class App {
     }
 
     // Зчитування CSV
-    private static List<String[]> processCsvFile(File file, Connection connection) throws IOException {
+    private static List<String[]> processCsvFile(File file, Connection connection, boolean compareDuplicatedStatus) throws IOException {
         List<String[]> processedData = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(
@@ -309,7 +314,7 @@ public class App {
                         }
 
                         // Перевірка на дубль
-                        if (isDuplicate(connection, kvkId, unixtime)) {
+                        if (compareDuplicatedStatus && isDuplicate(connection, kvkId, unixtime)) {
                             logger.warning("Duplicate entry detected for kvk_id=" + kvkId + " at " + unixtime +
                                     ". Skipping this record.");
                             continue; // пропускаємо цей запис
@@ -590,7 +595,7 @@ public class App {
 
     private static void setupLogger() {
         try {
-            FileHandler fileHandler = new FileHandler("Parser.log", true);
+            FileHandler fileHandler = new FileHandler("Parser.log", false);
             fileHandler.setFormatter(new SimpleFormatter());
             logger.addHandler(fileHandler);
             logger.setLevel(Level.ALL);
@@ -697,6 +702,7 @@ public class App {
         System.out.println();
         System.out.println("Options:");
         System.out.println("  -h, --help       Show this help message");
+        System.out.println("  -a, --all        Include duplicated message");
         System.out.println("  -f <file>        Specify CSV file to process");
         System.out.println();
         System.out.println("Examples:");
